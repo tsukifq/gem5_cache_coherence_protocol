@@ -1,0 +1,9 @@
+protocol "MESI_Ex";
+include "RubySlicc_interfaces.slicc";
+include "MESI_Ex-msg.sm";
+include "MESI_Ex-L0cache.sm";
+include "MESI_Ex-L1cache.sm";
+include "MESI_Ex-L2cache.sm";
+include "MESI_Ex-dir.sm";
+//include "MESI_Ex-sf.sm";
+include "MESI_Two_Level-dma.sm";
